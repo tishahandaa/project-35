@@ -7,16 +7,12 @@
     <script src="p5.play.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
 
+  </script>
     <!--Add your Firsebase Config here below. -->
-    // Import the functions you need from the SDKs you need
-    import { initializeApp } from "firebase/app";
-    // TODO: Add SDKs for Firebase products that you want to use
-    // https://firebase.google.com/docs/web/setup#available-libraries
-    
-    // Your web app's Firebase configuration
-    var firebaseConfig = {
+    <var></var> firebaseConfig = {
       apiKey: "AIzaSyBhrgZPuz2OxhM2JevDl5jR3v1weW2nebg",
       authDomain: "project35-54933.firebaseapp.com",
+      databaseURL: "https://project35-54933-default-rtdb.asia-southeast1.firebasedatabase.app",
       projectId: "project35-54933",
       storageBucket: "project35-54933.appspot.com",
       messagingSenderId: "1084605126987",
@@ -24,12 +20,13 @@
     };
     
     // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
+   Firebase.initializeApp(firebaseConfig);
+  </script>
 
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <meta charset="utf-8">
 
-  </head> 
+  </head>
   <body>
       <script src="sketch.js"></script>
     </body>
